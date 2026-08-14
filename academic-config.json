@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Academic Article & Schema Configuration",
+  "description": "User configuration for corresponding author, educational organization affiliation with postal address, and publisher defaults",
+  "correspondingAuthor": {
+    "name": "Mohammad Hafiz bin Ismail",
+    "givenName": "Mohammad Hafiz",
+    "familyName": "bin Ismail",
+    "jobTitle": "Senior Lecturer",
+    "identifier": "https://orcid.org/0000-0001-5798-4926",
+    "email": "mohammadhafiz@uitm.edu.my",
+    "sameAs": [
+      "https://orcid.org/0000-0001-5798-4926",
+      "https://www.scopus.com/authid/detail.uri?authorId=35810300000",
+      "https://expert.uitm.edu.my/expert/mohammadhafiz",
+      "https://mypapit.net"
+    ],
+    "affiliation": {
+      "@type": "EducationalOrganization",
+      "name": "Universiti Teknologi MARA",
+      "department": "Faculty of Computer and Mathematical Sciences",
+      "url": "https://uitm.edu.my",
+      "sameAs": "https://fskmperlis.uitm.edu.my/",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Jalan Rani Estate",
+        "addressLocality": "Arau",
+        "addressRegion": "Perlis",
+        "postalCode": "02600",
+        "addressCountry": "MY"
+      }
+    }
+  },
+  "defaultPublisher": {
+    "@type": "Organization",
+    "name": "Oxford University Press",
+    "url": "https://academic.oup.com",
+    "sameAs": "https://www.wikidata.org/wiki/Q217595"
+  },
+  "defaultDataCatalog": {
+    "@type": "DataCatalog",
+    "name": "Zenodo",
+    "url": "https://zenodo.org"
+  }
+}
